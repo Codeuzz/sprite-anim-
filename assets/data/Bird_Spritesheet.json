@@ -1,0 +1,39 @@
+{
+    "file": "assets/img/Bird_Spritesheet.png",
+    "sprites": [{
+            "name": "bird-1",
+            "x": "0",
+            "y": "0",
+            "width": "845",
+            "height": "582"
+        }, {
+            "name": "bird-2",
+            
+            "x": "845",
+            "y": "0",
+            "width": "845",
+            "height": "582"
+        }, {
+            "name": "bird-3",
+            "x": "0",
+            "y": "582",
+            "width": "845",
+            "height": "582"
+        }, {
+            "name": "bird-4",
+            "x": "852",
+            "y": "582",
+            "width": "845",
+            "height": "582"
+    }],
+    "animations": [{
+        "name": "fly",
+        "frameRate": "4",
+        "frames": [
+            "bird-1",
+            "bird-2",
+            "bird-3",
+            "bird-4"
+        ]
+    }]
+}
